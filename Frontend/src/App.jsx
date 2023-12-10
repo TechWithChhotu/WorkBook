@@ -41,7 +41,7 @@ function App() {
   const dispatch = useDispatch();
   (async () => {
     const response = await axios.get(
-      "work-book-deployment.vercel.app/api/v1/today-work",
+      "work-book-lovat.vercel.app/api/v1/today-work",
       {
         withCredentials: true,
       }

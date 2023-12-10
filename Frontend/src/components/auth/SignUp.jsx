@@ -21,7 +21,7 @@ function SignUp() {
     e.preventDefault();
 
     const response = await axios.post(
-      "work-book-deployment.vercel.app/api/v1/register",
+      "work-book-lovat.vercel.app/api/v1/register",
 
       {
         name,

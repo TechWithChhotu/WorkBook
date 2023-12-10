@@ -30,7 +30,7 @@ function AddWorkRecord() {
     // }
 
     const response = await axios.post(
-      "work-book-deployment.vercel.app/api/v1/send-work",
+      "work-book-lovat.vercel.app/api/v1/send-work",
       {
         workName: work,
         startTime: `2023-04-02T${time1}:00`,
@@ -45,7 +45,7 @@ function AddWorkRecord() {
     } else {
       (async () => {
         const response = await axios.get(
-          "work-book-deployment.vercel.app/api/v1/today-work",
+          "work-book-lovat.vercel.app/api/v1/today-work",
           {
             withCredentials: true,
           }

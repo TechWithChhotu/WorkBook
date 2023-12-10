@@ -32,7 +32,7 @@ export default function Navbar() {
 
   const handleLogout = async () => {
     const response = await axios.get(
-      "work-book-deployment.vercel.app/api/v1/logout",
+      "work-book-lovat.vercel.app/api/v1/logout",
       {
         withCredentials: true,
       }

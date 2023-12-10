@@ -26,7 +26,7 @@ function Login() {
     }
 
     const response = await axios.post(
-      "work-book-deployment.vercel.app/api/v1/login",
+      "work-book-lovat.vercel.app/api/v1/login",
 
       {
         email,
