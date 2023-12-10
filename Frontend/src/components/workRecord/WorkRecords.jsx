@@ -29,7 +29,8 @@ function WorkRecord() {
       <h2 className="text-lg">
         Today`s total working Time{" "}
         <span className="text-indigo-600">
-          HH : MM :: {5} : {20}
+          {" "}
+          {formatTimeFromMinutes(data.todayTotalWork)}
         </span>
       </h2>
 

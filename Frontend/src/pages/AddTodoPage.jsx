@@ -1,5 +1,11 @@
+import AddTodo from "../components/todo/AddTodo";
+
 function AddTodoPage() {
-  return <div>AddTodoPage</div>;
+  return (
+    <div>
+      <AddTodo />
+    </div>
+  );
 }
 
 export default AddTodoPage;

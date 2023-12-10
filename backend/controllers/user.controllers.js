@@ -4,6 +4,7 @@ import {
   calculateTotalTime,
 } from "../helper/controllers.helpers.js";
 
+/*======================GetTodaysWork======================*/
 const getTodaysWork = async (req, res) => {
   const userId = req.user.id;
   const user = await User.findById(userId);
