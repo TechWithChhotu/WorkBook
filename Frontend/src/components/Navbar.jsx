@@ -31,9 +31,12 @@ export default function Navbar() {
   });
 
   const handleLogout = async () => {
-    const response = await axios.get("http://localhost:3000/api/v1/logout", {
-      withCredentials: true,
-    });
+    const response = await axios.get(
+      "work-book-deployment.vercel.app/api/v1/logout",
+      {
+        withCredentials: true,
+      }
+    );
     if (!response) {
       console.log("Something went wrong");
     } else {
