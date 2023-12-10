@@ -9,7 +9,7 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: "https://work-book-deployment-client.vercel.app",
+    origin: "https://work-book-client.vercel.app",
     methods: ["GET", "POST"], // Include POST method
     credentials: true, // Include credentials (cookies) in the request
   })
